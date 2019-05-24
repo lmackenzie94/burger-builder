@@ -1,0 +1,7 @@
+- To use CSS Modules, run 'npm run eject'
+- config > webpack.config.dev.js 
+- under importLoaders: 1, add:
+    modules: true,
+    localIdentName: '[name]__[local]__[hash:base64:5]
+- webpack.config.prod.js
+- under sourceMap: shouldUseSourceMap, add the same two lines as above.
